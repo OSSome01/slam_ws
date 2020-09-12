@@ -373,6 +373,12 @@ slamBot_gazebo_BINARY_DIR:STATIC=/home/ossome/slam_ws/build/slamBot_gazebo
 //Value Computed by CMake
 slamBot_gazebo_SOURCE_DIR:STATIC=/home/ossome/slam_ws/src/slamBot_gazebo
 
+//Value Computed by CMake
+slamBot_navigation_BINARY_DIR:STATIC=/home/ossome/slam_ws/build/slamBot_navigation
+
+//Value Computed by CMake
+slamBot_navigation_SOURCE_DIR:STATIC=/home/ossome/slam_ws/src/slamBot_navigation
+
 
 ########################
 # INTERNAL cache entries
@@ -485,7 +491,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

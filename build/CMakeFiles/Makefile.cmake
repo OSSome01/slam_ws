@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "slamBot_control/catkin_generated/package.cmake"
   "slamBot_description/catkin_generated/package.cmake"
   "slamBot_gazebo/catkin_generated/package.cmake"
+  "slamBot_navigation/catkin_generated/package.cmake"
   "/home/ossome/slam_ws/src/CMakeLists.txt"
   "/home/ossome/slam_ws/src/slamBot_control/CMakeLists.txt"
   "/home/ossome/slam_ws/src/slamBot_control/package.xml"
@@ -23,6 +24,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ossome/slam_ws/src/slamBot_description/package.xml"
   "/home/ossome/slam_ws/src/slamBot_gazebo/CMakeLists.txt"
   "/home/ossome/slam_ws/src/slamBot_gazebo/package.xml"
+  "/home/ossome/slam_ws/src/slamBot_navigation/CMakeLists.txt"
+  "/home/ossome/slam_ws/src/slamBot_navigation/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/all.cmake"
   "/opt/ros/melodic/share/catkin/cmake/assert.cmake"
   "/opt/ros/melodic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -156,6 +159,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "slamBot_control/CMakeFiles/CMakeDirectoryInformation.cmake"
   "slamBot_description/CMakeFiles/CMakeDirectoryInformation.cmake"
   "slamBot_gazebo/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "slamBot_navigation/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

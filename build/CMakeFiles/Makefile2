@@ -496,6 +496,24 @@ slamBot_gazebo/preinstall:
 .PHONY : slamBot_gazebo/preinstall
 
 #=============================================================================
+# Directory level rules for directory slamBot_navigation
+
+# Convenience name for "all" pass in the directory.
+slamBot_navigation/all:
+
+.PHONY : slamBot_navigation/all
+
+# Convenience name for "clean" pass in the directory.
+slamBot_navigation/clean:
+
+.PHONY : slamBot_navigation/clean
+
+# Convenience name for "preinstall" pass in the directory.
+slamBot_navigation/preinstall:
+
+.PHONY : slamBot_navigation/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

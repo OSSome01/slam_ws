@@ -1,0 +1,8 @@
+prefix=/home/ossome/slam_ws/devel
+
+Name: slamBot_navigation
+Description: Description of slamBot_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

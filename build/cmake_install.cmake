@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ossome/slam_ws/build/slamBot_control/cmake_install.cmake")
   include("/home/ossome/slam_ws/build/slamBot_description/cmake_install.cmake")
   include("/home/ossome/slam_ws/build/slamBot_gazebo/cmake_install.cmake")
+  include("/home/ossome/slam_ws/build/slamBot_navigation/cmake_install.cmake")
 
 endif()
 

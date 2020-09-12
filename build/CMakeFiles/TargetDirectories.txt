@@ -57,3 +57,10 @@
 /home/ossome/slam_ws/build/slamBot_gazebo/CMakeFiles/install/local.dir
 /home/ossome/slam_ws/build/slamBot_gazebo/CMakeFiles/rebuild_cache.dir
 /home/ossome/slam_ws/build/slamBot_gazebo/CMakeFiles/install.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/install/strip.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/edit_cache.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/list_install_components.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/test.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/install/local.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/rebuild_cache.dir
+/home/ossome/slam_ws/build/slamBot_navigation/CMakeFiles/install.dir
