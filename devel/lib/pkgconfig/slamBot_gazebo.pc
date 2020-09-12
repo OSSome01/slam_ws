@@ -1,0 +1,8 @@
+prefix=/home/ossome/slam_ws/devel
+
+Name: slamBot_gazebo
+Description: Description of slamBot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

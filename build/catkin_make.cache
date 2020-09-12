@@ -1,0 +1,2 @@
+slamBot_control:slamBot_description:slamBot_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/ossome/slam_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ossome/slam_ws/install -G Unix Makefiles

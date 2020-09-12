@@ -1,0 +1,8 @@
+prefix=/home/ossome/slam_ws/devel
+
+Name: slamBot_control
+Description: Description of slamBot_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
