@@ -30,3 +30,6 @@ Simulation of a differential drive robot which can perform autonomous navigation
   * In a separate terminal run `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch` to start the teleoperation of the robot. You'll see that the estimate of robot's pose will coverge pretty quickly.
   
   [![Mapping the environment by using gmapping](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/localization.jpg?token=ALKIIA4LUOO66MX7THE5SOK7LXJGU)](https://youtu.be/MMK123eTdbs)
+  
+## References
+This work was done taking reference from [here](http://moorerobots.com/blog/post/1)
