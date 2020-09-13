@@ -410,56 +410,6 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory slamBot_control
-
-# Convenience name for "all" pass in the directory.
-slamBot_control/all:
-
-.PHONY : slamBot_control/all
-
-# Convenience name for "clean" pass in the directory.
-slamBot_control/clean: slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-.PHONY : slamBot_control/clean
-
-# Convenience name for "preinstall" pass in the directory.
-slamBot_control/preinstall:
-
-.PHONY : slamBot_control/preinstall
-
-#=============================================================================
-# Target rules for target slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/build.make slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/build.make slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ossome/slam_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossome/slam_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossome/slam_ws/build/CMakeFiles 0
-.PHONY : slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/build.make slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-# clean rule for target.
-clean: slamBot_control/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Directory level rules for directory slamBot_description
 
 # Convenience name for "all" pass in the directory.
@@ -468,7 +418,7 @@ slamBot_description/all:
 .PHONY : slamBot_description/all
 
 # Convenience name for "clean" pass in the directory.
-slamBot_description/clean:
+slamBot_description/clean: slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : slamBot_description/clean
 
@@ -476,6 +426,38 @@ slamBot_description/clean:
 slamBot_description/preinstall:
 
 .PHONY : slamBot_description/preinstall
+
+#=============================================================================
+# Target rules for target slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ossome/slam_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossome/slam_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossome/slam_ws/build/CMakeFiles 0
+.PHONY : slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+# clean rule for target.
+clean: slamBot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory slamBot_gazebo
