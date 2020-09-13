@@ -21,7 +21,7 @@ Simulation of a differential drive robot which can perform autonomous navigation
   * Move the robot around steadly to generate a map.
   * In a separate terminal run `rosrun map_server map_saver -f /tmp/test_map` to save the map in a yaml file.
   
-  [![Mapping the environment by using gmapping](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/mapping.png?token=ALKIIA4EKYI7AKSNPECYMHS7LXJN2)](https://youtu.be/n91CMrL0g-4)
+  [![Mapping the environment using gmapping](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/mapping.png?token=ALKIIA4EKYI7AKSNPECYMHS7LXJN2)](https://youtu.be/n91CMrL0g-4)
   
 ### Localization
   * Launch the gazebo world by running `roslaunch slamBot_gazebo slamBot_test_world.launch`
@@ -29,7 +29,7 @@ Simulation of a differential drive robot which can perform autonomous navigation
   * In rviz, estimate initial pose by `2D Pose Estimate`
   * In a separate terminal run `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch` to start the teleoperation of the robot. You'll see that the estimate of robot's pose will coverge pretty quickly.
   
-  [![Mapping the environment by using gmapping](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/localization.jpg?token=ALKIIA4LUOO66MX7THE5SOK7LXJGU)](https://youtu.be/MMK123eTdbs)
+  [![Localization in the environment using amcl](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/localization.jpg?token=ALKIIAYQ63POXDCHO3PVASC7LXQOE)](https://youtu.be/MMK123eTdbs)
   
 ## References
 This work was done taking reference from [here](http://moorerobots.com/blog/post/1)
