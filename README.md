@@ -20,8 +20,13 @@ Simulation of a differential drive robot which can perform autonomous navigation
   * In a separate terminal run `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch` to start the teleoperation of the robot
   * Move the robot around steadly to generate a map.
   * In a separate terminal run `rosrun map_server map_saver -f /tmp/test_map` to save the map in a yaml file.
+  
+  [![Mapping the environment by using gmapping](https://raw.githubusercontent.com/OSSome01/Obstacle_Avoidance/master/Obstacle_Avoidance.png)](https://youtu.be/n91CMrL0g-4)
+  
 ### Localization
   * Launch the gazebo world by running `roslaunch slamBot_gazebo slamBot_test_world.launch`
   * In a separate terminal run `roslaunch slamBot_navigation slamBot_navigation.launch map_file:=/tmp/test_map.yaml`, to start navigation in the map
   * In rviz, estimate initial pose by `2D Pose Estimate`
   * In a separate terminal run `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch` to start the teleoperation of the robot. You'll see that the estimate of robot's pose will coverge pretty quickly.
+  
+  [![Mapping the environment by using gmapping](https://raw.githubusercontent.com/OSSome01/Obstacle_Avoidance/master/Obstacle_Avoidance.png)](https://youtu.be/MMK123eTdbs)
