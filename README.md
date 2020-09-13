@@ -21,7 +21,7 @@ Simulation of a differential drive robot which can perform autonomous navigation
   * Move the robot around steadly to generate a map.
   * In a separate terminal run `rosrun map_server map_saver -f /tmp/test_map` to save the map in a yaml file.
   
-  [![Mapping the environment using gmapping](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/mapping.png?token=ALKIIA4EKYI7AKSNPECYMHS7LXJN2)](https://youtu.be/n91CMrL0g-4)
+  [![Mapping the environment using gmapping](https://raw.githubusercontent.com/OSSome01/slam_ws/master/assets/mapping.png?token=ALKIIA37X5N7CDI6MRJKROS7LXQW6)](https://youtu.be/n91CMrL0g-4)
   
 ### Localization
   * Launch the gazebo world by running `roslaunch slamBot_gazebo slamBot_test_world.launch`
