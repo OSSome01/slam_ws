@@ -8,7 +8,16 @@
   <xacro:include filename="$(find slamBot_description)/urdf/slamBot.gazebo" />
   <xacro:include filename="$(find slamBot_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find slamBot_description)/urdf/macros.xacro" />
-
+  <!--plugin for omni wheels/--> 
+  <gazebo>
+    <plugin name="object_controller" filename="libgazebo_ros_planar_move.so">
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <odometryRate>20.0</odometryRate>
+      <robotBaseFrame>base</robotBaseFrame>
+    </plugin>
+  </gazebo>
 
   <link name='chassis'>
     <pose>0 0 0.1 0 0 0</pose>
